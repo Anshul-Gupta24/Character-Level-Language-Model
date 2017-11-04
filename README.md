@@ -6,5 +6,14 @@
 
 #### The input is encoded using 1 hot encoding and is passed onto a hidden layer with 100 neurons. The output layer is a probability distribution over the vocabulary and an output character is sampled from this distribution. Backpropagation is carried out every 25 timesteps.
 
+#### Running the code:
+
+#### Input is stored in input.txt
+
+>> python rnn.py
+
+#### Output is 200 character long samples of text every 100 iterations of backpropagation.
+
+
 #### Reference:
 #### http://karpathy.github.io/2015/05/21/rnn-effectiveness/
